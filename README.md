@@ -15,7 +15,7 @@ output maybe large so give result as mod with 10^9+7
 PS:-Initial uncertainty in momentum and position r both greater than 100.
 
 Input -:
-First input line contains total number of wizards n
+First input line contains total number of wizards n,
 the next n input lines contain the values to labels on top of them
 
 Output
