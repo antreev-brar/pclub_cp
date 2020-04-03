@@ -46,8 +46,8 @@ output
 explanation:
 the following ways are  :-
 * [+1 +1] (1),[-1 -1] (2)                  ()parenthesis denote index of wizard
-                                            here in the first way wizard1 increased both uncertainity in momen. and pos. by 1 
-                                            and wizard2 decreased both by 1 respectively hence sum is zero
+                                            * here in the first way wizard1 increased both uncertainity in momen. and pos. by 1 
+                                            * and wizard2 decreased both by 1 respectively hence sum is zero
 * [+1 -1] (1),[-1 +1] (2)
 * [-1 -1] (1),[+1 +1] (2)
 * [-1 +1] (1),[+1 -1] (2)
