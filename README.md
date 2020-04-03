@@ -30,6 +30,7 @@ Constraints
 * m(1)+m(2)...m(n)<=50
 * p(1)+p(2)...p(n)<=50
 
+* the constraints are small bcz my compiler gives segmentation fault for bigger ones and please attempt the problem ,it might not be that easy as it looks : )
 
 Eg 1:-
 
