@@ -69,3 +69,48 @@ the following ways are  :-
 * [-1 +3] (1),[+2,-6] (2),[-1,+3] (3)
 * [+1 -3] (1),[-2,+6] (2),[+1,-3] (3)
 * [-1 -3] (1),[+2,+6] (2),[-1,-3] (3)
+
+
+############################################################################################
+
+Here is another original question but i didnt submit it bcz i wasnt able to solve it myself .If the reader is able to solve this one ,kindly let me know
+
+U r the owner of a hospital but due to COVID-19 , the influx of patients has increased tremendously. U have to employ nurses but u have limited funds ,so u really need to be cautious on the selection process. U need to maximise the number of hours for which nurses would be there in hospital keeping in mind the fund constraints.
+The nurses work for a particular timeframe only but at any particular time only one nurse should be present in hospital(i.e their time frames shouldnt overlap) and every nurse charges a certain fees for her services.
+
+Input 
+first line contains input n , the number of nurses and f, funds of hospital
+the next n lines contains input about the time frame for nurses and the fees they charge. 
+t2(i)  > t1(i)
+t1(i) - t2(i)  p(i)
+eg 4-9 80
+it means the nurse works from 0400 to 0900 at cost of 80 rupees
+
+OUtput
+single integer denoting the maximum number of hours for which u can employ nurses
+
+
+Constraints:
+the start and end time of any nurse shift whill be an integer 0<=t1(i)<t2(i)<=24
+if shift of one nurse begins and the moment when another nurse's shift ends ,then its okay.
+i have no idea about time complexity of solution so decide n suitably 
+
+* 0<=f<=10^18
+
+
+eg 1
+input 
+* 5 100
+* 5-14 30
+* 23-24 10
+* 0-10 50
+* 12 -18 50
+* 3-4 10
+
+output
+18
+
+explanation 
+maximum number of hours can be obtained by employing nurse 3 and 4
+
+
